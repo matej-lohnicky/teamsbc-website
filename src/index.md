@@ -4,7 +4,7 @@ layout: home
 hero:
   name: TeamSBC
   text: Linux for single-board computers.
-  tagline: A minimal Fedora Remix for single-board computers and virtual machines, built around systemd.
+  tagline: A minimal Fedora Remix for single-board computers. Built around systemd and u-boot.
   image:
     src: /logo.png
     alt: TeamSBC's single-board computer mascot
