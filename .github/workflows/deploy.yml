@@ -1,0 +1,56 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: '.nvmrc'
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build website
+        run: npm run build
+        env:
+          VITEPRESS_BASE: ${{ steps.pages.outputs.base_path }}/
+      - name: Upload artifact
+        if: github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: '.vitepress/dist'
+
+  deploy:
+    if: github.event_name == 'push'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
