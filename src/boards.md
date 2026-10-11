@@ -1,24 +1,24 @@
 ---
-title: Devices
-description: Supported TeamSBC devices, architectures, and image downloads.
+title: Boards
+description: Supported TeamSBC boards and virtual machines, architectures, and image downloads.
 ---
 
-# Devices
+# Boards
 
 TeamSBC provides images for Raspberry Pi 4, Raspberry Pi 5, and virtual machines.
-Choose your device and architecture below, then download an image for the variant
-you want to run.
+Choose a board or virtual machine and its architecture below, then download an
+image for the variant you want to run.
 
 [Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse) uses
 package-based maintenance.
 [Makalu](https://handbook.teamsbc.org/getting-started/variants.html#makalu) is the
 image-based variant.
 
-## Supported devices
+## Supported boards and virtual machines
 
 The links below open the download directories for experimental TeamSBC 46 images.
 
-| Device | Architecture | Lhotse | Makalu |
+| Board / virtual machine | Architecture | Lhotse | Makalu |
 | --- | --- | --- | --- |
 | Raspberry Pi 4 | ARM64 (`aarch64`) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-rpi4/index.html) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-rpi4/index.html) |
 | Raspberry Pi 5 | ARM64 (`aarch64`) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-rpi5/index.html) | Not available |

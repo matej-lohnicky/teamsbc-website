@@ -17,7 +17,7 @@ export default defineConfig({
     logo: '/logo.png',
     nav: [
       { text: 'Home', link: '/', activeMatch: '^/$' },
-      { text: 'Devices', link: '/devices', activeMatch: '^/devices(?:\\.html)?$' },
+      { text: 'Boards', link: '/boards', activeMatch: '^/boards(?:\\.html)?$' },
       { text: 'Handbook', link: 'https://handbook.teamsbc.org' }
     ],
     socialLinks: [
