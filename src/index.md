@@ -13,6 +13,9 @@ hero:
       text: Read the handbook
       link: https://handbook.teamsbc.org
     - theme: alt
+      text: Browse devices
+      link: /devices
+    - theme: alt
       text: Join the community
       link: https://handbook.teamsbc.org/preface/community.html
 

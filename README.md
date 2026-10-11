@@ -1,7 +1,8 @@
 # TeamSBC Website
 
-The main website uses VitePress's default theme and homepage layout. It shares
-the handbook's Home/Handbook navigation and initially contains one landing page.
+The main website uses VitePress's default theme and homepage layout. Its
+Home/Devices/Handbook navigation links to the landing page, supported devices,
+and the handbook.
 
 Use Node.js 22 or newer. If you use nvm, run `nvm use` first.
 
@@ -17,8 +18,10 @@ npm run build
 npm run preview
 ```
 
-Edit `src/index.md` for the landing page and `.vitepress/config.js` for site
-settings. Shared images and the custom domain file live in `src/public/`.
+Edit `src/index.md` for the landing page, `src/devices.md` for supported devices,
+and `.vitepress/config.js` for site settings. Keep the device list and download
+links aligned with the artifacts repository's build matrix and the handbook's
+installation page. Shared images and the custom domain file live in `src/public/`.
 There is no documentation sidebar, search, or page-edit link.
 
 The dependencies match the handbook: VitePress 1.6.4, with a patched Vite 6
