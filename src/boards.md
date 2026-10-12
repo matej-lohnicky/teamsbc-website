@@ -12,7 +12,7 @@ image for the variant you want to run.
 [Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse) uses
 package-based maintenance.
 [Makalu](https://handbook.teamsbc.org/getting-started/variants.html#makalu) is the
-image-based variant.
+cohesive variant.
 
 ## Supported boards and virtual machines
 

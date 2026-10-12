@@ -29,7 +29,7 @@ features:
     link: https://handbook.teamsbc.org/getting-started/introduction.html#systemd
     linkText: Explore the design
   - title: Two approaches to maintenance
-    details: Lhotse provides package-based maintenance. Makalu is the image-based variant.
+    details: Lhotse provides package-based maintenance. Makalu is the cohesive variant.
     link: https://handbook.teamsbc.org/getting-started/variants.html
     linkText: Meet the variants
 ---
