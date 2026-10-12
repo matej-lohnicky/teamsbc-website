@@ -21,9 +21,9 @@ The links below open the download directories for experimental TeamSBC 46 images
 | Board / virtual machine | Architecture | Lhotse | Makalu |
 | --- | --- | --- | --- |
 | Raspberry Pi 4 | ARM64 (`aarch64`) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-rpi4/index.html) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-rpi4/index.html) |
-| Raspberry Pi 5 | ARM64 (`aarch64`) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-rpi5/index.html) | Not available |
+| Raspberry Pi 5 | ARM64 (`aarch64`) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-rpi5/index.html) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-rpi5/index.html) |
 | Virtual machine | x86-64 (`x86_64`) | [Download](https://artifacts.teamsbc.net/main/46/x86_64/teamsbc-lhotse-virt/index.html) | [Download](https://artifacts.teamsbc.net/main/46/x86_64/teamsbc-makalu-virt/index.html) |
-| Virtual machine | ARM64 (`aarch64`) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-virt/index.html) | Not available |
+| Virtual machine | ARM64 (`aarch64`) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-virt/index.html) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-virt/index.html) |
 
 Virtual machines require UEFI firmware and an image matching their architecture.
 For a Raspberry Pi, use the image for your specific board model.
