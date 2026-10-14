@@ -1,5 +1,9 @@
 <script setup>
-import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { useData } from 'vitepress'
+
+const { lang } = useData()
+const isDutch = computed(() => lang.value === 'nl')
 
 const notice = ref(null)
 let observer
@@ -24,8 +28,14 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <aside ref="notice" class="experimental-notice" aria-label="Experimental software notice">
-    TeamBSC Linux is experimental and not ready for general usage.
+  <aside
+    ref="notice"
+    class="experimental-notice"
+    :aria-label="isDutch ? 'Waarschuwing over experimentele software' : 'Experimental software notice'"
+  >
+    {{ isDutch
+      ? 'TeamSBC Linux is experimenteel en nog niet klaar voor algemeen gebruik.'
+      : 'TeamSBC Linux is experimental and not ready for general usage.' }}
   </aside>
 </template>
 
