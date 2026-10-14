@@ -41,6 +41,66 @@ export default defineConfig({
         }
       }
     },
+    fr: {
+      label: 'Français',
+      lang: 'fr',
+      description: 'Un Fedora Remix minimal pour les ordinateurs monocartes et les machines virtuelles.',
+      themeConfig: {
+        nav: [
+          { text: 'Accueil', link: '/fr/', activeMatch: '^/fr/$' },
+          { text: 'À propos', link: '/fr/about', activeMatch: '^/fr/about(?:\\.html)?$' },
+          { text: 'Téléchargements', link: '/fr/downloads', activeMatch: '^/fr/downloads(?:\\.html)?$' },
+          { text: 'FAQ', link: '/fr/faq', activeMatch: '^/fr/faq(?:\\.html)?$' },
+          { text: 'Soutenir le projet', link: '/fr/sponsoring', activeMatch: '^/fr/sponsoring(?:\\.html)?$' },
+          { text: 'Manuel (anglais)', link: 'https://handbook.teamsbc.org' }
+        ],
+        langMenuLabel: 'Changer de langue',
+        darkModeSwitchLabel: 'Apparence',
+        lightModeSwitchTitle: 'Activer le thème clair',
+        darkModeSwitchTitle: 'Activer le thème sombre',
+        sidebarMenuLabel: 'Menu',
+        returnToTopLabel: 'Retour en haut',
+        skipToContentLabel: 'Aller au contenu',
+        outlineTitle: 'Sur cette page',
+        docFooter: { prev: 'Page précédente', next: 'Page suivante' },
+        notFound: {
+          title: 'PAGE INTROUVABLE',
+          quote: 'Cette page n’existe pas. Revenez à l’accueil pour poursuivre votre lecture.',
+          linkLabel: 'Aller à l’accueil',
+          linkText: 'Retour à l’accueil'
+        }
+      }
+    },
+    de: {
+      label: 'Deutsch',
+      lang: 'de',
+      description: 'Ein minimaler Fedora Remix für Einplatinencomputer und virtuelle Maschinen.',
+      themeConfig: {
+        nav: [
+          { text: 'Startseite', link: '/de/', activeMatch: '^/de/$' },
+          { text: 'Über TeamSBC', link: '/de/about', activeMatch: '^/de/about(?:\\.html)?$' },
+          { text: 'Downloads', link: '/de/downloads', activeMatch: '^/de/downloads(?:\\.html)?$' },
+          { text: 'Häufige Fragen', link: '/de/faq', activeMatch: '^/de/faq(?:\\.html)?$' },
+          { text: 'Sponsoring', link: '/de/sponsoring', activeMatch: '^/de/sponsoring(?:\\.html)?$' },
+          { text: 'Handbuch (Englisch)', link: 'https://handbook.teamsbc.org' }
+        ],
+        langMenuLabel: 'Sprache wechseln',
+        darkModeSwitchLabel: 'Darstellung',
+        lightModeSwitchTitle: 'Helles Design aktivieren',
+        darkModeSwitchTitle: 'Dunkles Design aktivieren',
+        sidebarMenuLabel: 'Menü',
+        returnToTopLabel: 'Nach oben',
+        skipToContentLabel: 'Zum Inhalt springen',
+        outlineTitle: 'Auf dieser Seite',
+        docFooter: { prev: 'Vorherige Seite', next: 'Nächste Seite' },
+        notFound: {
+          title: 'SEITE NICHT GEFUNDEN',
+          quote: 'Diese Seite existiert nicht. Kehre zur Startseite zurück, um weiterzulesen.',
+          linkLabel: 'Zur Startseite',
+          linkText: 'Zurück zur Startseite'
+        }
+      }
+    },
     ru: {
       label: 'Русский',
       lang: 'ru',

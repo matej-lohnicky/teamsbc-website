@@ -12,6 +12,14 @@ const messages = {
     label: 'Waarschuwing over experimentele software',
     text: 'TeamSBC Linux is experimenteel en nog niet klaar voor algemeen gebruik.'
   },
+  fr: {
+    label: 'Avertissement concernant le logiciel expérimental',
+    text: 'TeamSBC Linux est expérimental et n’est pas encore prêt pour une utilisation générale.'
+  },
+  de: {
+    label: 'Hinweis zu experimenteller Software',
+    text: 'TeamSBC Linux ist experimentell und noch nicht für den allgemeinen Einsatz bereit.'
+  },
   ru: {
     label: 'Предупреждение об экспериментальном ПО',
     text: 'TeamSBC Linux — экспериментальная система, ещё не готовая для широкого использования.'
