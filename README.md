@@ -30,8 +30,10 @@ There is no documentation sidebar, search, or page-edit link.
 English pages live directly in `src/` and keep their existing URLs. Dutch
 translations live in `src/nl/` and are served under `/nl/`; French translations
 live in `src/fr/` and are served under `/fr/`; German translations live in
-`src/de/` and are served under `/de/`; Russian translations live in `src/ru/`
-and are served under `/ru/`. Leave the terms
+`src/de/` and are served under `/de/`; Spanish translations live in `src/es/`
+and are served under `/es/`; Czech translations live in `src/cs/` and are served
+under `/cs/`; Russian translations live in `src/ru/` and are served under `/ru/`.
+Leave the terms
 "cohesive Linux" and "packages" untranslated in translations. Keep matching filenames
 and heading IDs across languages so the language selector can open the same page
 and section. Update all language versions when changing content, especially download links.

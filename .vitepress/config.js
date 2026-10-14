@@ -101,6 +101,66 @@ export default defineConfig({
         }
       }
     },
+    es: {
+      label: 'Español',
+      lang: 'es',
+      description: 'Un Fedora Remix mínimo para ordenadores de placa única y máquinas virtuales.',
+      themeConfig: {
+        nav: [
+          { text: 'Inicio', link: '/es/', activeMatch: '^/es/$' },
+          { text: 'Acerca de TeamSBC', link: '/es/about', activeMatch: '^/es/about(?:\\.html)?$' },
+          { text: 'Descargas', link: '/es/downloads', activeMatch: '^/es/downloads(?:\\.html)?$' },
+          { text: 'Preguntas frecuentes', link: '/es/faq', activeMatch: '^/es/faq(?:\\.html)?$' },
+          { text: 'Patrocinio', link: '/es/sponsoring', activeMatch: '^/es/sponsoring(?:\\.html)?$' },
+          { text: 'Manual (inglés)', link: 'https://handbook.teamsbc.org' }
+        ],
+        langMenuLabel: 'Cambiar idioma',
+        darkModeSwitchLabel: 'Apariencia',
+        lightModeSwitchTitle: 'Activar el tema claro',
+        darkModeSwitchTitle: 'Activar el tema oscuro',
+        sidebarMenuLabel: 'Menú',
+        returnToTopLabel: 'Volver arriba',
+        skipToContentLabel: 'Ir al contenido',
+        outlineTitle: 'En esta página',
+        docFooter: { prev: 'Página anterior', next: 'Página siguiente' },
+        notFound: {
+          title: 'PÁGINA NO ENCONTRADA',
+          quote: 'Esta página no existe. Vuelve al inicio para seguir leyendo.',
+          linkLabel: 'Ir al inicio',
+          linkText: 'Volver al inicio'
+        }
+      }
+    },
+    cs: {
+      label: 'Čeština',
+      lang: 'cs',
+      description: 'Minimální Fedora Remix pro jednodeskové počítače a virtuální stroje.',
+      themeConfig: {
+        nav: [
+          { text: 'Úvod', link: '/cs/', activeMatch: '^/cs/$' },
+          { text: 'O TeamSBC', link: '/cs/about', activeMatch: '^/cs/about(?:\\.html)?$' },
+          { text: 'Ke stažení', link: '/cs/downloads', activeMatch: '^/cs/downloads(?:\\.html)?$' },
+          { text: 'Časté dotazy', link: '/cs/faq', activeMatch: '^/cs/faq(?:\\.html)?$' },
+          { text: 'Sponzorství', link: '/cs/sponsoring', activeMatch: '^/cs/sponsoring(?:\\.html)?$' },
+          { text: 'Příručka (anglicky)', link: 'https://handbook.teamsbc.org' }
+        ],
+        langMenuLabel: 'Změnit jazyk',
+        darkModeSwitchLabel: 'Vzhled',
+        lightModeSwitchTitle: 'Zapnout světlý motiv',
+        darkModeSwitchTitle: 'Zapnout tmavý motiv',
+        sidebarMenuLabel: 'Nabídka',
+        returnToTopLabel: 'Zpět nahoru',
+        skipToContentLabel: 'Přejít na obsah',
+        outlineTitle: 'Na této stránce',
+        docFooter: { prev: 'Předchozí stránka', next: 'Další stránka' },
+        notFound: {
+          title: 'STRÁNKA NENALEZENA',
+          quote: 'Tato stránka neexistuje. Vraťte se na úvodní stránku a pokračujte ve čtení.',
+          linkLabel: 'Přejít na úvodní stránku',
+          linkText: 'Zpět na úvodní stránku'
+        }
+      }
+    },
     ru: {
       label: 'Русский',
       lang: 'ru',
