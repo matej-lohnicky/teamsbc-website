@@ -1,9 +1,9 @@
 ---
-title: Boards
-description: Supported TeamSBC boards and virtual machines, architectures, and image downloads.
+title: Downloads
+description: Download TeamSBC images for supported boards and virtual machines.
 ---
 
-# Boards
+# Downloads
 
 TeamSBC provides images for Raspberry Pi 4, Raspberry Pi 5, and virtual machines.
 Choose a board or virtual machine and its architecture below, then download an

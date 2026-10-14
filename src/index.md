@@ -13,8 +13,8 @@ hero:
       text: Read the handbook
       link: https://handbook.teamsbc.org
     - theme: alt
-      text: Browse boards
-      link: /boards
+      text: Downloads
+      link: /downloads
     - theme: alt
       text: Join the community
       link: https://handbook.teamsbc.org/preface/community.html
