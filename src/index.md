@@ -22,14 +22,14 @@ hero:
 features:
   - title: A Fedora Remix
     details: Fedora packages with TeamSBC's choices for services, configuration, and the software installed on your system.
-    link: https://handbook.teamsbc.org/getting-started/introduction.html
+    link: /about
     linkText: About TeamSBC
   - title: Built around systemd
     details: An integrated approach to booting, managing services, users, and networking.
     link: https://handbook.teamsbc.org/getting-started/introduction.html#systemd
     linkText: Explore the design
-  - title: Two approaches to maintenance
-    details: Lhotse provides package-based maintenance. Makalu is the cohesive variant.
-    link: https://handbook.teamsbc.org/getting-started/variants.html
-    linkText: Meet the variants
+  - title: Cohesive Linux
+    details: TeamSBC wants to provide a cohesive Linux system. It is built and delivered as a versioned whole.
+    link: /about#cohesive-linux
+    linkText: Explore the goal
 ---
