@@ -40,6 +40,36 @@ export default defineConfig({
           linkText: 'Terug naar de startpagina'
         }
       }
+    },
+    ru: {
+      label: 'Русский',
+      lang: 'ru',
+      description: 'Минимальный Fedora Remix для одноплатных компьютеров и виртуальных машин.',
+      themeConfig: {
+        nav: [
+          { text: 'Главная', link: '/ru/', activeMatch: '^/ru/$' },
+          { text: 'О TeamSBC', link: '/ru/about', activeMatch: '^/ru/about(?:\\.html)?$' },
+          { text: 'Загрузки', link: '/ru/downloads', activeMatch: '^/ru/downloads(?:\\.html)?$' },
+          { text: 'Частые вопросы', link: '/ru/faq', activeMatch: '^/ru/faq(?:\\.html)?$' },
+          { text: 'Поддержать проект', link: '/ru/sponsoring', activeMatch: '^/ru/sponsoring(?:\\.html)?$' },
+          { text: 'Руководство (англ.)', link: 'https://handbook.teamsbc.org' }
+        ],
+        langMenuLabel: 'Выбрать язык',
+        darkModeSwitchLabel: 'Оформление',
+        lightModeSwitchTitle: 'Включить светлую тему',
+        darkModeSwitchTitle: 'Включить тёмную тему',
+        sidebarMenuLabel: 'Меню',
+        returnToTopLabel: 'Наверх',
+        skipToContentLabel: 'Перейти к содержимому',
+        outlineTitle: 'На этой странице',
+        docFooter: { prev: 'Предыдущая страница', next: 'Следующая страница' },
+        notFound: {
+          title: 'СТРАНИЦА НЕ НАЙДЕНА',
+          quote: 'Этой страницы не существует. Вернитесь на главную страницу, чтобы продолжить чтение.',
+          linkLabel: 'Перейти на главную страницу',
+          linkText: 'На главную'
+        }
+      }
     }
   },
   srcDir: './src',

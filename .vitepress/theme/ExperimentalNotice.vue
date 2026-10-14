@@ -3,7 +3,21 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useData } from 'vitepress'
 
 const { lang } = useData()
-const isDutch = computed(() => lang.value === 'nl')
+const messages = {
+  en: {
+    label: 'Experimental software notice',
+    text: 'TeamSBC Linux is experimental and not ready for general usage.'
+  },
+  nl: {
+    label: 'Waarschuwing over experimentele software',
+    text: 'TeamSBC Linux is experimenteel en nog niet klaar voor algemeen gebruik.'
+  },
+  ru: {
+    label: 'Предупреждение об экспериментальном ПО',
+    text: 'TeamSBC Linux — экспериментальная система, ещё не готовая для широкого использования.'
+  }
+}
+const message = computed(() => messages[lang.value] || messages.en)
 
 const notice = ref(null)
 let observer
@@ -31,11 +45,9 @@ onBeforeUnmount(() => {
   <aside
     ref="notice"
     class="experimental-notice"
-    :aria-label="isDutch ? 'Waarschuwing over experimentele software' : 'Experimental software notice'"
+    :aria-label="message.label"
   >
-    {{ isDutch
-      ? 'TeamSBC Linux is experimenteel en nog niet klaar voor algemeen gebruik.'
-      : 'TeamSBC Linux is experimental and not ready for general usage.' }}
+    {{ message.text }}
   </aside>
 </template>
 
