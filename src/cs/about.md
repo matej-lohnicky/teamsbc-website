@@ -10,6 +10,10 @@ TeamSBC chce nabídnout **systém cohesive Linux**: operační systém vytváře
 a dodávaný jako celek s vlastním číslem verze. Všechny jeho součásti a výchozí
 nastavení jsou navrženy tak, aby spolupracovaly, a přizpůsobeny konkrétní desce.
 
+TeamSBC je tedy upravenou verzí Fedora Linux. Pokud chcete získat neupravenou
+verzi Fedora Linux, můžete navštívit web
+[projektu Fedora](http://fedoraproject.org/).
+
 ## Cohesive Linux {#cohesive-linux}
 
 TeamSBC chce používat obraz systému jako jednotku pro sestavení, dodávání

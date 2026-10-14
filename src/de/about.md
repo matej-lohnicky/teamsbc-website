@@ -10,6 +10,10 @@ TeamSBC möchte **ein cohesive Linux** anbieten: ein Betriebssystem, das als Gan
 mit einer eigenen Versionsnummer erstellt und ausgeliefert wird. Alle Komponenten
 und Voreinstellungen sind aufeinander abgestimmt und für eine bestimmte Platine ausgelegt.
 
+TeamSBC ist somit eine modifizierte Version von Fedora Linux. Wenn du eine
+unveränderte Version von Fedora Linux möchtest, kannst du die Website des
+[Fedora-Projekts](http://fedoraproject.org/) besuchen.
+
 ## Cohesive Linux {#cohesive-linux}
 
 TeamSBC möchte das Systemabbild zur Einheit für Erstellung, Auslieferung und

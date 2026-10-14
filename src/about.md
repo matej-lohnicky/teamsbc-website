@@ -10,6 +10,10 @@ TeamSBC wants to provide **a cohesive Linux system**: an operating system built
 and delivered as a versioned whole, with all of its components and defaults designed
 to work together and specific to a target board.
 
+This makes TeamSBC a modified version of Fedora Linux, if you wish to get an unmodified
+version of Fedora Linux you can visit the [Fedora Project](http://fedoraproject.org/)
+website.
+
 ## Cohesive Linux
 
 TeamSBC wants to make the system image the unit of building, delivery, and updates.

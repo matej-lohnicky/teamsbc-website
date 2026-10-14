@@ -11,6 +11,10 @@ construit et livré comme un ensemble doté d’un numéro de version, dont tous
 composants et réglages par défaut sont conçus pour fonctionner ensemble et adaptés
 à une carte précise.
 
+TeamSBC est donc une version modifiée de Fedora Linux. Si vous souhaitez obtenir
+une version non modifiée de Fedora Linux, vous pouvez consulter le site du
+[Projet Fedora](http://fedoraproject.org/).
+
 ## Cohesive Linux {#cohesive-linux}
 
 TeamSBC souhaite faire de l’image système l’unité de construction, de livraison
