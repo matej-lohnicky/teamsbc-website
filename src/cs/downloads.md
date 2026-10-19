@@ -9,10 +9,10 @@ TeamSBC poskytuje obrazy pro Raspberry Pi 4, Raspberry Pi 5 a virtuální stroje
 Níže vyberte desku nebo virtuální stroj a jeho architekturu. Poté stáhněte obraz
 varianty, kterou chcete používat.
 
-[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
-využívá údržbu založenou na správě packages.
 [Makalu](https://handbook.teamsbc.org/getting-started/variants.html#makalu) je
 varianta pro cohesive Linux.
+[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
+využívá údržbu založenou na správě packages.
 
 ## Podporované desky a virtuální stroje {#supported-boards-and-virtual-machines}
 
@@ -26,7 +26,8 @@ Následující odkazy otevřou adresáře ke stažení experimentálních obraz�
 | Virtuální stroj | ARM64 (`aarch64`) | [Stáhnout](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-virt/index.html) | [Stáhnout](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-virt/index.html) |
 
 Virtuální stroje vyžadují firmware UEFI a obraz odpovídající jejich architektuře.
-Pro Raspberry Pi použijte obraz určený pro váš konkrétní model.
+V ostatních případech použijte obraz určený pro konkrétní desku, na které chcete
+systém provozovat.
 
 ## První kroky {#get-started}
 

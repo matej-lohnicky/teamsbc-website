@@ -9,10 +9,10 @@ TeamSBC fournit des images pour les Raspberry Pi 4, Raspberry Pi 5 et les machin
 virtuelles. Choisissez ci-dessous une carte ou une machine virtuelle ainsi que
 son architecture, puis téléchargez une image de la variante que vous souhaitez utiliser.
 
-[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
-utilise une maintenance basée sur les packages.
 [Makalu](https://handbook.teamsbc.org/getting-started/variants.html#makalu) est la
 variante de cohesive Linux.
+[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
+utilise une maintenance basée sur les packages.
 
 ## Cartes et machines virtuelles prises en charge {#supported-boards-and-virtual-machines}
 
@@ -26,7 +26,8 @@ Les liens ci-dessous ouvrent les répertoires de téléchargement des images exp
 | Machine virtuelle | ARM64 (`aarch64`) | [Télécharger](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-virt/index.html) | [Télécharger](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-virt/index.html) |
 
 Les machines virtuelles nécessitent un micrologiciel UEFI et une image correspondant
-à leur architecture. Pour un Raspberry Pi, utilisez l’image de votre modèle précis.
+à leur architecture. Sinon, utilisez l’image spécifique à la carte sur laquelle
+vous souhaitez faire fonctionner le système.
 
 ## Premiers pas {#get-started}
 

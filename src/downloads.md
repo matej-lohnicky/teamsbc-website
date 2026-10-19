@@ -9,10 +9,10 @@ TeamSBC provides images for Raspberry Pi 4, Raspberry Pi 5, and virtual machines
 Choose a board or virtual machine and its architecture below, then download an
 image for the variant you want to run.
 
-[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse) uses
-package-based maintenance.
 [Makalu](https://handbook.teamsbc.org/getting-started/variants.html#makalu) is the
 cohesive variant.
+[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse) uses
+package-based maintenance.
 
 ## Supported boards and virtual machines
 
@@ -25,8 +25,8 @@ The links below open the download directories for experimental TeamSBC 46 images
 | Virtual machine | x86-64 (`x86_64`) | [Download](https://artifacts.teamsbc.net/main/46/x86_64/teamsbc-lhotse-virt/index.html) | [Download](https://artifacts.teamsbc.net/main/46/x86_64/teamsbc-makalu-virt/index.html) |
 | Virtual machine | ARM64 (`aarch64`) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-virt/index.html) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-virt/index.html) |
 
-Virtual machines require UEFI firmware and an image matching their architecture.
-For a Raspberry Pi, use the image for your specific board model.
+Virtual machines require UEFI firmware and an image matching their architecture. Otherwise
+use the image that's specific to the board you want to run on.
 
 ## Get started
 

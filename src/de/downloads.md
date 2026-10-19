@@ -9,10 +9,10 @@ TeamSBC stellt Abbilder für Raspberry Pi 4, Raspberry Pi 5 und virtuelle Maschi
 bereit. Wähle unten eine Platine oder virtuelle Maschine und ihre Architektur aus.
 Lade anschließend ein Abbild der Variante herunter, die du verwenden möchtest.
 
-[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
-wird über die Verwaltung von packages gepflegt.
 [Makalu](https://handbook.teamsbc.org/getting-started/variants.html#makalu) ist die
 Variante für cohesive Linux.
+[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
+wird über die Verwaltung von packages gepflegt.
 
 ## Unterstützte Platinen und virtuelle Maschinen {#supported-boards-and-virtual-machines}
 
@@ -26,7 +26,8 @@ Die folgenden Links öffnen die Downloadverzeichnisse für experimentelle TeamSB
 | Virtuelle Maschine | ARM64 (`aarch64`) | [Herunterladen](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-virt/index.html) | [Herunterladen](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-virt/index.html) |
 
 Virtuelle Maschinen benötigen UEFI-Firmware und ein Abbild, das zu ihrer
-Architektur passt. Verwende für einen Raspberry Pi das Abbild für dein genaues Modell.
+Architektur passt. Verwende andernfalls das Abbild für die konkrete Platine,
+auf der du das System betreiben möchtest.
 
 ## Erste Schritte {#get-started}
 

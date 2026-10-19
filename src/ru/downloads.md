@@ -9,10 +9,10 @@ TeamSBC предоставляет образы для Raspberry Pi 4, Raspberry
 машин. Выберите ниже плату или виртуальную машину и её архитектуру, затем
 скачайте образ нужного варианта системы.
 
-[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
-обслуживается через управление packages.
 [Makalu](https://handbook.teamsbc.org/getting-started/variants.html#makalu) —
 вариант cohesive Linux.
+[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
+обслуживается через управление packages.
 
 ## Поддерживаемые платы и виртуальные машины {#supported-boards-and-virtual-machines}
 
@@ -26,8 +26,8 @@ TeamSBC предоставляет образы для Raspberry Pi 4, Raspberry
 | Виртуальная машина | ARM64 (`aarch64`) | [Скачать](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-virt/index.html) | [Скачать](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-virt/index.html) |
 
 Для виртуальных машин требуется прошивка UEFI и образ, соответствующий их
-архитектуре. Для Raspberry Pi используйте образ для вашей конкретной модели
-платы.
+архитектуре. В остальных случаях используйте образ для конкретной платы,
+на которой вы хотите запустить систему.
 
 ## Начало работы {#get-started}
 

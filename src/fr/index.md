@@ -20,6 +20,10 @@ hero:
       link: https://handbook.teamsbc.org/preface/community.html
 
 features:
+  - title: Cohesive Linux
+    details: TeamSBC propose un système cohesive Linux. Il est construit et livré comme un ensemble doté d’un numéro de version.
+    link: /fr/about#cohesive-linux
+    linkText: Découvrir l’objectif
   - title: Un Fedora Remix
     details: Des packages Fedora avec les choix de TeamSBC pour les services, la configuration et les logiciels installés sur votre système.
     link: /fr/about
@@ -28,8 +32,4 @@ features:
     details: Une approche intégrée du démarrage et de la gestion des services, des utilisateurs et du réseau.
     link: https://handbook.teamsbc.org/getting-started/introduction.html#systemd
     linkText: Découvrir la conception
-  - title: Cohesive Linux
-    details: TeamSBC souhaite proposer un système cohesive Linux. Il est construit et livré comme un ensemble doté d’un numéro de version.
-    link: /fr/about#cohesive-linux
-    linkText: Découvrir l’objectif
 ---

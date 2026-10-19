@@ -9,10 +9,10 @@ TeamSBC biedt images voor Raspberry Pi 4, Raspberry Pi 5 en virtuele machines.
 Kies hieronder een apparaat of virtuele machine en de bijbehorende architectuur.
 Download vervolgens een image voor de variant die je wilt gebruiken.
 
-[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
-wordt onderhouden via het beheer van packages.
 [Makalu](https://handbook.teamsbc.org/getting-started/variants.html#makalu) is de
 variant voor cohesive Linux.
+[Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
+wordt onderhouden via het beheer van packages.
 
 ## Ondersteunde apparaten en virtuele machines {#supported-boards-and-virtual-machines}
 
@@ -26,8 +26,8 @@ De onderstaande links openen de downloadmappen voor experimentele TeamSBC 46-ima
 | Virtuele machine | ARM64 (`aarch64`) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-virt/index.html) | [Download](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-virt/index.html) |
 
 Virtuele machines hebben UEFI-firmware nodig en een image die bij hun
-architectuur past. Gebruik voor een Raspberry Pi de image voor jouw specifieke
-model.
+architectuur past. Gebruik anders de image die specifiek is voor het apparaat
+waarop je het systeem wilt draaien.
 
 ## Aan de slag {#get-started}
 

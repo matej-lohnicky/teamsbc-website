@@ -20,6 +20,10 @@ hero:
       link: https://handbook.teamsbc.org/preface/community.html
 
 features:
+  - title: Cohesive Linux
+    details: TeamSBC предоставляет cohesive Linux. Система собирается и поставляется как единое целое с собственным номером версии.
+    link: /ru/about#cohesive-linux
+    linkText: Узнать о цели проекта
   - title: Fedora Remix
     details: Packages Fedora с выбранными TeamSBC службами, настройками и программным обеспечением для вашей системы.
     link: /ru/about
@@ -28,8 +32,4 @@ features:
     details: Комплексный подход к загрузке системы, управлению службами и пользователями и настройке сети.
     link: https://handbook.teamsbc.org/getting-started/introduction.html#systemd
     linkText: Узнать об устройстве системы
-  - title: Cohesive Linux
-    details: TeamSBC стремится создать cohesive Linux. Система собирается и поставляется как единое целое с собственным номером версии.
-    link: /ru/about#cohesive-linux
-    linkText: Узнать о цели проекта
 ---
