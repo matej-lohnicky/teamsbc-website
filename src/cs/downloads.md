@@ -10,9 +10,9 @@ Níže vyberte desku nebo virtuální stroj a jeho architekturu. Poté stáhnět
 varianty, kterou chcete používat.
 
 [Makalu](https://handbook.teamsbc.org/getting-started/variants.html#makalu) je
-varianta pro cohesive Linux.
+ucelená varianta.
 [Lhotse](https://handbook.teamsbc.org/getting-started/variants.html#lhotse)
-využívá údržbu založenou na správě packages.
+využívá údržbu založenou na balíčcích.
 
 ## Podporované desky a virtuální stroje {#supported-boards-and-virtual-machines}
 
@@ -25,8 +25,8 @@ Následující odkazy otevřou adresáře ke stažení experimentálních obraz�
 | Virtuální stroj | x86-64 (`x86_64`) | [Stáhnout](https://artifacts.teamsbc.net/main/46/x86_64/teamsbc-lhotse-virt/index.html) | [Stáhnout](https://artifacts.teamsbc.net/main/46/x86_64/teamsbc-makalu-virt/index.html) |
 | Virtuální stroj | ARM64 (`aarch64`) | [Stáhnout](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-lhotse-virt/index.html) | [Stáhnout](https://artifacts.teamsbc.net/main/46/aarch64/teamsbc-makalu-virt/index.html) |
 
-Virtuální stroje vyžadují firmware UEFI a obraz odpovídající jejich architektuře.
-V ostatních případech použijte obraz určený pro konkrétní desku, na které chcete
+Virtuální stroje vyžadují UEFI firmware a obraz odpovídající jejich architektuře.
+Jinak použijte obraz určený pro konkrétní desku, na které chcete
 systém provozovat.
 
 ## První kroky {#get-started}
